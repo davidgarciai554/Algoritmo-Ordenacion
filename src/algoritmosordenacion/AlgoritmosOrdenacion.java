@@ -33,7 +33,7 @@ public class AlgoritmosOrdenacion {
                         aux = numeros[i];
                         numeros[i] = numeros[i - salto];
                         numeros[i - salto] = aux;
-                        intercambio = true;
+                        intercambio = true;  
                     }
                 }
             }
